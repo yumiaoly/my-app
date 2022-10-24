@@ -1,0 +1,27 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    .module{
+        width: 48%;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        height: calc(100vh - 100px);
+    }
+    .module-con{
+        padding: 10px;
+        font-size: 16px;
+        overflow-y: scroll;
+        .general{
+            min-height: 20px;
+            line-height: 20px;
+            margin-bottom: 2px;
+        }
+    }
+}
+
+.multi-box{
+    background: #d6d6d6;
+    padding: 10px;
+    border-radius: 6px;
+}
