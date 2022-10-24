@@ -32,33 +32,3 @@
     "webpack-dev-server": "^4.11.1"
 ```
 
-
-const lines = ['### 项目配置', '```', '  "@babel/core": "^7.19.1",'```']
-
-
-
-// 判断
-const judgeType = (line)=>{
-
-  // # 开头 => 单行
-  // ``` 开头 => 多行判断
-  // 渲染组件决定掉 
-  return  {
-
-  }
-}
-
-
-const result = [
-  { index: 0, value: '### 项目配置' ,component:TitleRender },
-  {index: 1, endIndex: 3, value: [ '```', '  "@babel/core": "^7.19.1",'```' ]}
-
-  
-  ]
-
-
-# 12
-## 12
-### 44
-```
-12
